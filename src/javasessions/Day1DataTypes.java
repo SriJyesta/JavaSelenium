@@ -8,6 +8,13 @@ public class Day1DataTypes {
 		byte a=-128;
 		byte b=127;
 		
+		byte x=100;
+		byte y=29;
+		
+		byte t =(byte) (x+y);
+		System.out.println("------:" +(int)t); 
+		
+		
 		
 //		2 short range-- -32768  to 32767
 		
@@ -39,7 +46,9 @@ public class Day1DataTypes {
 		
 //		7 char A-Z, a-z, 0-9. !@#$%^&*()_+
 		char q = '1';
-		char q1 = 'a';
+		int q1 = 'a';
+		
+		System.out.println("ASCII value is :" + q1);
 		char q2 = ' ';
 		
 		
