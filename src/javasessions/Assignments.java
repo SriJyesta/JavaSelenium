@@ -155,6 +155,15 @@ public class Assignments {
 		System.out.println(d++ + ++D);//1.5+3.5=5
 		System.out.println(d);//2.5
 		
+		int v=10,v1=5,v2=0,v3=-1;
+		int v5 = ++v + --v1 + v2++ - v3--;
+//		         11 + 4+ 0+1
+		System.out.println(v5);//16
+		System.out.println(v);//11
+		System.out.println(v1);//4'
+		System.out.println(v2);//1
+		System.out.println(v3);//-2
+		
 		
 		
 		
