@@ -47,7 +47,7 @@ public class Day4CondtionalStatements {
 		}
 		///////// Nested iF//////////////////
 		System.out.println("Nested iF");
-		int num = 85;
+		int num = 150;
 		if (num <= 100) {
 			System.out.println("Pass1");
 			if (num > 90) {
@@ -68,13 +68,11 @@ public class Day4CondtionalStatements {
 			System.out.println("failed");
 		}
 
-		
 //		if if if else/////////
 		String brw = "ie";
 		if (brw.equals("gc")) {
 			System.out.println("launch gc");
-		}
-		else {
+		} else {
 
 			System.out.println("No brw found");
 		}
@@ -119,5 +117,25 @@ public class Day4CondtionalStatements {
 		else {
 			System.out.println("No browser found");
 		}
+
+		String x = "1", y = "2", z = "9";
+		boolean test = true;
+
+		if (x.equals("1")) {
+
+			System.out.println("X True");
+		}
+
+		if (y.equals("8")) {
+			System.out.println("Y True");
+		}
+
+		if (z.equals("1")) {
+			System.out.println("Z True");
+
+		} else {
+			System.out.println("False");
+		}
+
 	}
 }

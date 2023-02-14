@@ -9,7 +9,7 @@ public class Assignments {
 ////
 ////		Expected Output :
 ////
-////		Hello 
+////		HelloÂ 
 ////
 ////		Naveen K
 //
@@ -19,7 +19,7 @@ public class Assignments {
 ////
 ////		Test Data:
 ////
-////		 74 + 36 
+////		Â 74 + 36 
 //		int a = 74, b = 36;
 //
 //		System.out.println("2 Value is :" + (a + b));
@@ -30,7 +30,7 @@ public class Assignments {
 ////
 ////		50/3
 ////
-////		Expected 
+////		ExpectedÂ 
 ////
 ////		Expected Output : 
 ////
@@ -38,7 +38,7 @@ public class Assignments {
 ////
 ////		16
 ////
-////		19 
+////		19Â 
 ////
 ////		13
 //
@@ -54,7 +54,7 @@ public class Assignments {
 ////
 ////		Test Data:
 ////
-////		((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5)) 
+////		((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5))Â 
 ////
 ////		Expected Output
 ////
@@ -68,7 +68,7 @@ public class Assignments {
 //		String con = "Hello Selenium", con1 = "T";
 //		System.out.println("5 Value is :" + con + con1);
 //
-////		6. Create three int variables having values like : 100, 200, 3400. Add them and concatenate and generate this output String : 
+////		6. Create three int variables having values like : 100, 200, 3400. Add them and concatenate and generate this output String :Â 
 ////
 ////		"Your Total amount is. 3700".
 //
@@ -152,21 +152,93 @@ public class Assignments {
 		System.out.println(++a9);
 
 		double d = 1.5, D = 2.5;
-		System.out.println(d++ + ++D);//1.5+3.5=5
-		System.out.println(d);//2.5
-		
-		int v=10,v1=5,v2=0,v3=-1;
+		System.out.println(d++ + ++D);// 1.5+3.5=5
+		System.out.println(d);// 2.5
+
+		int v = 10, v1 = 5, v2 = 0, v3 = -1;
 		int v5 = ++v + --v1 + v2++ - v3--;
 //		         11 + 4+ 0+1
-		System.out.println(v5);//16
-		System.out.println(v);//11
-		System.out.println(v1);//4'
-		System.out.println(v2);//1
-		System.out.println(v3);//-2
-		
-		
-		
-		
-	}
+		System.out.println(v5);// 16
+		System.out.println(v);// 11
+		System.out.println(v1);// 4'
+		System.out.println(v2);// 1
+		System.out.println(v3);// -2
 
+		String q = "a", w = "e", r = "i", t = "o", y = "u";
+		int g = 0;
+
+		if (q.equals("a") || q.equals("e") || q.equals("i") || q.equals("o") || q.equals("u")) {
+			System.out.println("Vowels are printed");
+
+		} else {
+			System.out.println("No vowels printed");
+		}
+
+		if (g > 0) {
+			System.out.println("+ve value");
+		} else if (g < 0) {
+			System.out.println("-ve value");
+		}
+
+		else {
+			System.out.println("Invalid value");
+		}
+
+//		Find out the greatest number out of three different given numbers:
+//
+//			Input the 1st number: 25Â 
+//
+//			Input the 2nd number: 78Â 
+//
+//			Input the 3rd number: 87
+//
+//			Expected OutputÂ :
+//
+//			The greatestï»¿: 87
+
+		String hn = "higest";
+		int at = -25, bt = -78, ct = -87;
+
+		switch (hn) {
+		case "higest":
+
+			if (at > bt && at > ct) {
+				System.out.println("a3 is highest");
+				break;
+
+			} else if (bt > at && bt > ct) {
+				System.out.println("b3 is highest");
+				break;
+			} else if (ct > at && ct > bt) {
+				System.out.println("c3 is highest");
+				break;
+			}
+
+		default:
+			System.out.println("No value is highest");
+			break;
+
+		}
+
+		int qq = 1, ww = 2, ee = 3, rr = -1;
+		int yy = ++qq - ++ee + ++rr - --ww;
+		int yx = --ee - ++rr + ww++ + qq--;
+		int bx = ++rr - ++ww - ee-- - --qq;
+		int vx = ++ww - --qq + ++ee - rr-- + ++rr - --ww + ee-- + ++qq;
+		int mx = ++ww + --qq + ++ee + rr-- + ++rr + --ww + ee-- + ++qq;
+		
+//		          4-1+3+2+2+3+3+0
+
+		System.out.println(yy);// -3
+		System.out.println(qq);// 2 1 0 0
+		System.out.println(yx);// 5
+		System.out.println(bx);// -4
+		System.out.println(vx);// 8
+		System.out.println(mx);// 16
+//
+//		System.out.println(qq);// 2 1 0 0
+		System.out.println(ww);// 1 2 3 3
+		System.out.println(ee);// 4 3 2 2
+		System.out.println(rr);// 0 1 2 2
+	}
 }
