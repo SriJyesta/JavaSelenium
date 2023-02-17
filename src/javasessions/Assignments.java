@@ -4,6 +4,14 @@ public class Assignments {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		float aa=5.43f, bb=2.653f;
+		System.out.println((double)aa/bb);
+		
+		
+		
+		
+		
 
 ////		1. Write a Java program to print 'Hello' on screen and then print your name on a separate line.
 ////
@@ -226,7 +234,7 @@ public class Assignments {
 		int bx = ++rr - ++ww - ee-- - --qq;
 		int vx = ++ww - --qq + ++ee - rr-- + ++rr - --ww + ee-- + ++qq;
 		int mx = ++ww + --qq + ++ee + rr-- + ++rr + --ww + ee-- + ++qq;
-		
+
 //		          4-1+3+2+2+3+3+0
 
 		System.out.println(yy);// -3
@@ -241,4 +249,9 @@ public class Assignments {
 		System.out.println(ee);// 4 3 2 2
 		System.out.println(rr);// 0 1 2 2
 	}
+
+
+	
+
 }
+

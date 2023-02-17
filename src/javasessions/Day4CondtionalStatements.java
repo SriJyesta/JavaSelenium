@@ -48,9 +48,9 @@ public class Day4CondtionalStatements {
 		///////// Nested iF//////////////////
 		System.out.println("Nested iF");
 		int num = 150;
-		if (num <= 100) {
+		if (num >= 100) {
 			System.out.println("Pass1");
-			if (num > 90) {
+			if (num < 90) {
 				System.out.println("Pass2");
 				if (num > 100) {
 					System.out.println("Pass3");
@@ -69,7 +69,7 @@ public class Day4CondtionalStatements {
 		}
 
 //		if if if else/////////
-		String brw = "ie";
+		String brw = "mf";
 		if (brw.equals("gc")) {
 			System.out.println("launch gc");
 		} else {
@@ -95,7 +95,7 @@ public class Day4CondtionalStatements {
 		}
 
 /////////if - elseif/////////////
-		String browser = "c";
+		String browser = "op";
 		if (browser.equals("gc")) {
 			System.out.println("launch gc");
 		}

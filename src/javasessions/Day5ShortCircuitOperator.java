@@ -22,7 +22,7 @@ public class Day5ShortCircuitOperator {
 
 		}
 
-		else if (a > b && a < c) {//true false=false
+		if (a > b && a > c && a<b) {//true false=false
 			System.out.println("B is largest");
 		} else {
 			System.out.println("C is largest");
