@@ -53,15 +53,19 @@ public class Day6LoopsWhileandFor {
 			System.out.println("h:" + b);
 
 		}
-		for (int b1 = 1; b1 <= 100; b1++) {
+//		Nested for condtion
+		System.out.println("--------------------");
+		for (int b1 = 1; b1 <= 4; ++b1) {
 			++b1;
-			System.out.println("Even :" + b1);
+			System.out.print(b1);
+			for (int b2 = 0; b2 <= 4; ++b2) {
+				++b2;
 
-		}
+				System.out.print( " " +b2);
 
-		for (int b1 = 1; b1 <= 100; b1++) {
-			++b1;
-			System.out.println("Odd :" + (b1-1));
+			}
+//			System.out.println();
+//			break;
 		}
 
 		for (char z1 = 'a'; z1 <= 'z'; z1++) {
@@ -83,12 +87,11 @@ public class Day6LoopsWhileandFor {
 		while (i8 <= 33) {
 			System.out.println(i8);
 			i8++;
-			
 
 		}
 
 	}
-	
+
 //	use cases of while loop:
 //	Number of iterations not fixed__example:links/images on the page
 //	webtable pagination 1 2 3 4 5....next
@@ -104,6 +107,5 @@ public class Day6LoopsWhileandFor {
 //	excel file - test data -rows
 //	selecting country from drop down
 //	read data from DB rows/cloumns data
-	
 
 }
